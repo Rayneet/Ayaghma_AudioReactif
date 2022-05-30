@@ -937,57 +937,8 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "AstrakanCafe_Edit_12janvier.wav",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Ayaghma_AudioReactif/Ayaghma_AudioReactif/media",
-				"patcherrelativepath" : "../media",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "AveMaria_edited_denoise.wav",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Ayaghma_AudioReactif/Ayaghma_AudioReactif/media",
-				"patcherrelativepath" : "../media",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "DividusMontage_17Fevrier.wav",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Ayaghma_AudioReactif/Ayaghma_AudioReactif/media",
-				"patcherrelativepath" : "../media",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Dividus_Techno_SalutFinal_Soft.wav",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Ayaghma_AudioReactif/Ayaghma_AudioReactif/media",
-				"patcherrelativepath" : "../media",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "MobbDeep_edited.wav",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Ayaghma_AudioReactif/Ayaghma_AudioReactif/media",
-				"patcherrelativepath" : "../media",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Montage_IntroVideo_44KHz_VoixUneFois_22032021.wav",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Ayaghma_AudioReactif/Ayaghma_AudioReactif/media",
-				"patcherrelativepath" : "../media",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "OSC-route.mxo",
 				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ScreamingJayHawkins_edited.wav",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Ayaghma_AudioReactif/Ayaghma_AudioReactif/media",
-				"patcherrelativepath" : "../media",
-				"type" : "WAVE",
-				"implicit" : 1
 			}
 , 			{
 				"name" : "audioAnalysers~.maxpat",

@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 390.0, 177.0, 29.5, 22.0 ],
+					"text" : "+ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"basictuning" : 0,
 					"data" : 					{
 						"clips" : [  ]
@@ -321,18 +333,6 @@
 					"patching_rect" : [ 771.912267923355103, 588.28070080280304, 22.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 156.661130547523499, 140.771242082118988, 56.822429776191711, 185.177570223808289 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 390.0, 171.0, 53.0, 22.0 ],
-					"text" : "zl.filter 0"
 				}
 
 			}
