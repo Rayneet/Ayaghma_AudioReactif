@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 239.0, 79.0, 1220.0, 911.0 ],
+		"rect" : [ 239.0, 79.0, 828.0, 911.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,28 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-12",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "p_scenoControl.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 1890.243947505950928, 1539.024426937103271, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1780.487847328186035, 1287.804908752441406, 128.0, 128.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "newobj",
@@ -185,7 +207,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 853.521137952804565, 730.755095481872559, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1482.598828702534547, 351.607793315697563, 488.904128522311339, 447.455473393201828 ],
+					"presentation_rect" : [ 697.384160399436951, 516.587539911270142, 984.660231084261795, 1179.455473393201828 ],
 					"viewvisibility" : 1
 				}
 
@@ -991,6 +1013,13 @@
 			}
 , 			{
 				"name" : "p_localProtoSend.maxpat",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Ayaghma_AudioReactif/Ayaghma_AudioReactif/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "p_scenoControl.maxpat",
 				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Ayaghma_AudioReactif/Ayaghma_AudioReactif/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
