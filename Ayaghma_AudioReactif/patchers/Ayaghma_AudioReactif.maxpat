@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 239.0, 79.0, 828.0, 911.0 ],
+		"rect" : [ 34.0, 79.0, 1612.0, 937.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-12",
+					"id" : "obj-1",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
@@ -53,9 +53,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1890.243947505950928, 1539.024426937103271, 128.0, 128.0 ],
+					"patching_rect" : [ 1741.0, 1409.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1780.487847328186035, 1287.804908752441406, 128.0, 128.0 ],
+					"presentation_rect" : [ 1962.377718181048294, 1153.333335041999817, 633.999997138977051, 960.999985814094543 ],
 					"viewvisibility" : 1
 				}
 
@@ -207,7 +207,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 853.521137952804565, 730.755095481872559, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 697.384160399436951, 516.587539911270142, 984.660231084261795, 1457.233234614133835 ],
+					"presentation_rect" : [ 687.127748847007751, 785.818343162536621, 984.660231084261795, 1457.233234614133835 ],
 					"viewvisibility" : 1
 				}
 
@@ -277,7 +277,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 853.521137952804565, 0.0, 514.249074935913086, 649.886577963829041 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1311.692529529963622, 3.370101317215813, 659.810427694882264, 346.23769199848175 ],
+					"presentation_rect" : [ 1311.692529529963622, 3.370101317215813, 659.810427694882264, 645.151223659515381 ],
 					"viewvisibility" : 1
 				}
 
@@ -959,6 +959,69 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "01_IntroVideo.wav",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Ayaghma/Ayaghma_all",
+				"patcherrelativepath" : "../../../Sources/Ayaghma/Ayaghma_all",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "02_Partie2_Player2.aif",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Ayaghma/Ayaghma_all",
+				"patcherrelativepath" : "../../../Sources/Ayaghma/Ayaghma_all",
+				"type" : "AIFF",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "03_AstrakanCafe.wav",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Ayaghma/Ayaghma_all",
+				"patcherrelativepath" : "../../../Sources/Ayaghma/Ayaghma_all",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "04_AveMaria.wav",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Ayaghma/Ayaghma_all",
+				"patcherrelativepath" : "../../../Sources/Ayaghma/Ayaghma_all",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "05_MobbDeep.wav",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Ayaghma/Ayaghma_all",
+				"patcherrelativepath" : "../../../Sources/Ayaghma/Ayaghma_all",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "06_IPutASpellOnYou.wav",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Ayaghma/Ayaghma_all",
+				"patcherrelativepath" : "../../../Sources/Ayaghma/Ayaghma_all",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "07_NOE.wav",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Ayaghma/Ayaghma_all",
+				"patcherrelativepath" : "../../../Sources/Ayaghma/Ayaghma_all",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "08_Electro_Player2.wav",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Ayaghma/Ayaghma_all",
+				"patcherrelativepath" : "../../../Sources/Ayaghma/Ayaghma_all",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "09_SalutFinal.wav",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Ayaghma/Ayaghma_all",
+				"patcherrelativepath" : "../../../Sources/Ayaghma/Ayaghma_all",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "OSC-route.mxo",
 				"type" : "iLaX"
 			}
