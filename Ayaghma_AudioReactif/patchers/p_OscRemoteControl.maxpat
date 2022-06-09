@@ -40,6 +40,17 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 926.260869026184082, 432.5, 88.0, 22.0 ],
+					"text" : "s soundTrigger"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -291,10 +302,10 @@
 					"id" : "obj-812",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 694.260869026184082, 356.235927760601044, 196.0, 22.0 ],
-					"text" : "OSC-route /Max /Unreal /Neon"
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 694.260869026184082, 356.235927760601044, 251.0, 22.0 ],
+					"text" : "OSC-route /Max /Unreal /Neon /Sound/trigger"
 				}
 
 			}
@@ -808,6 +819,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-812", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"source" : [ "obj-812", 3 ]
 				}
 
 			}

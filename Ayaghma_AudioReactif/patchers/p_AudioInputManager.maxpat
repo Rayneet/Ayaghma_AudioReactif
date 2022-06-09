@@ -40,6 +40,53 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-161",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 782.0, 2701.0, 89.0, 22.0 ],
+					"text" : "r inputFromFile"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-164",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "multichannelsignal" ],
+					"patching_rect" : [ 782.0, 2767.0, 58.0, 22.0 ],
+					"text" : "mc.gate~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-165",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "multichannelsignal" ],
+					"patching_rect" : [ 873.0, 2701.0, 70.0, 22.0 ],
+					"text" : "mc.pack~ 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-166",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 782.0, 2825.233007073402405, 114.0, 22.0 ],
+					"text" : "mc.send~ audioIn 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-163",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -446,10 +493,10 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 0,
-					"clipheight" : 117.213999999999999,
+					"clipheight" : 43.214285731315613,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "/Users/nils/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Ayaghma/Ayaghma_all/02_Partie2_Player2.aif",
+								"absolutepath" : "02_Partie2_Player2.aif",
 								"filename" : "02_Partie2_Player2.aif",
 								"filekind" : "audiofile",
 								"id" : "u936001926",
@@ -461,7 +508,7 @@
 
 							}
 , 							{
-								"absolutepath" : "/Users/nils/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Ayaghma/Ayaghma_all/08_Electro_Player2.wav",
+								"absolutepath" : "08_Electro_Player2.wav",
 								"filename" : "08_Electro_Player2.wav",
 								"filekind" : "audiofile",
 								"id" : "u857001925",
@@ -1497,7 +1544,7 @@
 					"clipheight" : 20.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "/Users/nils/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Ayaghma/Ayaghma_all/01_IntroVideo.wav",
+								"absolutepath" : "01_IntroVideo.wav",
 								"filename" : "01_IntroVideo.wav",
 								"filekind" : "audiofile",
 								"id" : "u150001762",
@@ -1509,7 +1556,7 @@
 
 							}
 , 							{
-								"absolutepath" : "/Users/nils/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Ayaghma/Ayaghma_all/03_AstrakanCafe.wav",
+								"absolutepath" : "03_AstrakanCafe.wav",
 								"filename" : "03_AstrakanCafe.wav",
 								"filekind" : "audiofile",
 								"id" : "u063001756",
@@ -1520,7 +1567,7 @@
 
 							}
 , 							{
-								"absolutepath" : "/Users/nils/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Ayaghma/Ayaghma_all/04_AveMaria.wav",
+								"absolutepath" : "04_AveMaria.wav",
 								"filename" : "04_AveMaria.wav",
 								"filekind" : "audiofile",
 								"id" : "u570001757",
@@ -1532,7 +1579,7 @@
 
 							}
 , 							{
-								"absolutepath" : "/Users/nils/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Ayaghma/Ayaghma_all/05_MobbDeep.wav",
+								"absolutepath" : "05_MobbDeep.wav",
 								"filename" : "05_MobbDeep.wav",
 								"filekind" : "audiofile",
 								"id" : "u716001758",
@@ -1544,7 +1591,7 @@
 
 							}
 , 							{
-								"absolutepath" : "/Users/nils/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Ayaghma/Ayaghma_all/06_IPutASpellOnYou.wav",
+								"absolutepath" : "06_IPutASpellOnYou.wav",
 								"filename" : "06_IPutASpellOnYou.wav",
 								"filekind" : "audiofile",
 								"id" : "u971001759",
@@ -1556,7 +1603,7 @@
 
 							}
 , 							{
-								"absolutepath" : "/Users/nils/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Ayaghma/Ayaghma_all/07_NOE.wav",
+								"absolutepath" : "07_NOE.wav",
 								"filename" : "07_NOE.wav",
 								"filekind" : "audiofile",
 								"id" : "u497001760",
@@ -1568,7 +1615,7 @@
 
 							}
 , 							{
-								"absolutepath" : "/Users/nils/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Ayaghma/Ayaghma_all/09_SalutFinal.wav",
+								"absolutepath" : "09_SalutFinal.wav",
 								"filename" : "09_SalutFinal.wav",
 								"filekind" : "audiofile",
 								"id" : "u194001761",
@@ -3106,6 +3153,15 @@
 				"patchline" : 				{
 					"destination" : [ "obj-158", 1 ],
 					"midpoints" : [ 1107.44933807849884, 2686.62911468744278, 1086.479645252227783, 2686.62911468744278 ],
+					"order" : 0,
+					"source" : [ "obj-123", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-165", 1 ],
+					"order" : 1,
 					"source" : [ "obj-123", 0 ]
 				}
 
@@ -3113,6 +3169,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-158", 0 ],
+					"order" : 0,
+					"source" : [ "obj-124", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-165", 0 ],
+					"order" : 1,
 					"source" : [ "obj-124", 0 ]
 				}
 
@@ -3352,6 +3417,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-164", 0 ],
+					"source" : [ "obj-161", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
 					"midpoints" : [ 1221.000221153100028, 2166.0, 965.479645252227783, 2166.0 ],
 					"source" : [ "obj-162", 0 ]
@@ -3362,6 +3434,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-162", 0 ],
 					"source" : [ "obj-163", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-166", 0 ],
+					"source" : [ "obj-164", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-164", 1 ],
+					"source" : [ "obj-165", 0 ]
 				}
 
 			}
