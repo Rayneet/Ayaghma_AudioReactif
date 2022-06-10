@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1163.0, 937.0 ],
+		"rect" : [ 34.0, 79.0, 1612.0, 937.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -966,13 +966,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "02_Partie2_Player2.aif",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Ayaghma/Ayaghma_all",
-				"patcherrelativepath" : "../../../Sources/Ayaghma/Ayaghma_all",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "03_AstrakanCafe.wav",
 				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Ayaghma/Ayaghma_all",
 				"patcherrelativepath" : "../../../Sources/Ayaghma/Ayaghma_all",
@@ -995,20 +988,6 @@
 			}
 , 			{
 				"name" : "06_IPutASpellOnYou.wav",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Ayaghma/Ayaghma_all",
-				"patcherrelativepath" : "../../../Sources/Ayaghma/Ayaghma_all",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "07_NOE.wav",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Ayaghma/Ayaghma_all",
-				"patcherrelativepath" : "../../../Sources/Ayaghma/Ayaghma_all",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "08_Electro_Player2.wav",
 				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Ayaghma/Ayaghma_all",
 				"patcherrelativepath" : "../../../Sources/Ayaghma/Ayaghma_all",
 				"type" : "WAVE",
