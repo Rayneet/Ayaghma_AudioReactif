@@ -959,6 +959,13 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "00_Accueil.wav",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Ayaghma/Ayaghma_all",
+				"patcherrelativepath" : "../../../Sources/Ayaghma/Ayaghma_all",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "01_IntroVideo.wav",
 				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/Ayaghma/Ayaghma_all",
 				"patcherrelativepath" : "../../../Sources/Ayaghma/Ayaghma_all",
